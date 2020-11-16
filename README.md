@@ -1,4 +1,4 @@
-<iframe src="https://giphy.com/embed/dVuyBgq2z5gVBkFtDc" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/motion-graphics-animated-gif-mograph-dVuyBgq2z5gVBkFtDc">via GIPHY</a></p>
+[Alt Text](https://media.giphy.com/media/dVuyBgq2z5gVBkFtDc/giphy.gif)
 
 
 # Introduction
