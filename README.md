@@ -28,7 +28,7 @@ Contact: peterk@knights.ucf.edu
 
 - identifying the start and stop codons for analyzing where the COVID spike protein might begin and end
 
-- calculating the RSCU index, which has been shown to indicate patterns in virulance factors
+- calculating the RSCU index, which has been shown to indicate patterns in virulance factors, and analyze the importance of various codons
 
 - analyzing "Motif X" sequences, which have been show to display mathematical properties and are significant in identifying major protein sequences
 
