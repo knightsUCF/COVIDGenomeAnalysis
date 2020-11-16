@@ -345,7 +345,7 @@ When I contacted the research team I asked them if they had detected any correla
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7314694/
 
-# Machine Learning Hidden Markov Models Analysis
+# Machine Learning and Hidden Markov Models Analysis on DNA / RNA
 
 A seemingly completely unexplored area of research pertaining to Motif X sequences is the application of machine learning.
 
