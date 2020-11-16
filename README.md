@@ -12,9 +12,9 @@ Spike proteins are a target for vaccine and therapeutic development.
 https://www.nature.com/articles/nrmicro2090
 
 
-# Introduction
+# Overview
 
-The COVID Genome Analysis project aims at analyzing the genomic sequence of COVID-19.
+The COVID Genome Analysis project aims at analyzing the genomic sequence of COVID-19. The goal of the project is to utilize data analysis and computing to extract patterns from the COVID RNA.
 
 
 Author: Piotr (Peter) Kwiatkowski.
