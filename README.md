@@ -305,10 +305,12 @@ I went ahead and graphed both of our results:
 
 Graph 1 - results of the original resaearch team (sars-cov-2 genome MT072688.1.)
 
+![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/graph1.jpg)
+
 Graph 2 - my results (sars-cov-2 genome MN908947)
 
 
-
+![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/graph2.jpg)
 
 
 
