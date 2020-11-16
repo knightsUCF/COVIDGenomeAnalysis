@@ -1,3 +1,7 @@
+
+![Alt Text](https://giphy.com/gifs/motion-graphics-animated-gif-mograph-dVuyBgq2z5gVBkFtDc)
+
+
 # Introduction
 
 The COVID Genome Analysis project aims at analyzing the genomic sequence of COVID-19.
