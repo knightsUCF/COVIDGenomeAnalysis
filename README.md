@@ -117,9 +117,7 @@ Start codons and stop codons are important because they indicate where a protein
 
 https://www.dovepress.com/synonymous-codons-influencing-gene-expression-in-organisms-peer-reviewed-fulltext-article-RRBC
 
-"Characterization of codon usage pattern in SARS-CoV-2"
-
-"Codon usage pattern analysis: The basic nucleotide composition (A%, U%, C%, and G%), AU and GC contents, relative synonymous codon usage (RSCU) were analyzed using MEGA software."
+"Characterization of codon usage pattern in SARS-CoV-2 -- Codon usage pattern analysis: The basic nucleotide composition (A%, U%, C%, and G%), AU and GC contents, relative synonymous codon usage (RSCU) were analyzed using MEGA software."
 
 https://virologyj.biomedcentral.com/articles/10.1186/s12985-020-01395-x
 
