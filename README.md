@@ -264,13 +264,13 @@ To calculate the RSCU index of codons in COVID-19:
     '''
 
 
-"The Riemerella anatipestifer AS87_01735 Gene Encodes Nicotinamidase PncA, an Important Virulence Factor: (RSCU) analysis revealed that A or U (T) ending codons are predominant in RA"
+"The Riemerella anatipestifer AS87_01735 Gene Encodes Nicotinamidase PncA, an Important Virulence Factor: (RSCU) analysis revealed that A or T ending codons are predominant in RA"
 
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5000701/
 
 
-With RSCU analysis we were able to confirm the above study, that similar to Riemerella anatipestifer, COVID-19 codons ending in A or U (T) are most prevalent by having a high RSCU index closest to 1.0.
+With RSCU analysis we were able to confirm the above study, that similar to Riemerella anatipestifer, COVID-19 codons ending in A or T are most prevalent by having a high RSCU index closest to 1.0.
 
 
         
