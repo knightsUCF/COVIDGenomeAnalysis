@@ -107,7 +107,7 @@ We can test this by:
     
     
 
-The results confirm the study, where the C and G nucleotides has decreased from the January sample to the November sample, indicating the virus has mutated since.
+The results confirm the study, where the C and G nucleotides have decreased in frequency from the January sample to the November sample, indicating the virus has mutated since.
 
 
 
