@@ -282,7 +282,20 @@ With RSCU analysis we were able to confirm the above study, that similar to Riem
         
 # MOTIF X
 
-"Motif X" is a special sequence of codons which exhibits mathematical properties. When detected this sequence seems to be used by biological mechanisms to synchronize DNA / RNA. Work on Motif X has only been started and there is not a lot of research done yet in this field. 
+"Motif X" is a special sequence of codons which exhibits mathematical properties. When detected this sequence seems to be used by biological mechanisms to synchronize DNA / RNA. Work on Motif X has only been started and there is not a lot of research done yet in this field.
+
+
+To run the Motif X algorithm on the COVID RNA:
+
+    import genome
+    import motifx
+
+    g = genome.Genome('MN908947_China_01_05_2020.txt')
+    mx = motifx.MotifX()
+
+
+    print(mx.GetSegmentsByRank(g.GetCodons()))
+
 
 I contacted the research team of the study on Motif X and they said that to their knowledge there is no active research being done on Motif X in the United States.
 
