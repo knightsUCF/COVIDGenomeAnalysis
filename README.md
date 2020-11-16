@@ -96,14 +96,14 @@ We can test this by:
     print('China 01 05 2020 G nucleotide frequency: ', g1.GetGFrequency())
 
     print('California 11 10 2020 C nucleotide frequency: ', g2.GetCFrequency())
-    print('California 11 05 2020 G nucleotide frequency: ', g2.GetGFrequency())
+    print('California 11 10 2020 G nucleotide frequency: ', g2.GetGFrequency())
     
     
     # output:
     # China 01 05 2020 C nucleotide frequency:  18.37
     # China 01 05 2020 G nucleotide frequency:  19.61
     # California 11 10 2020 C nucleotide frequency:  18.16
-    # California 11 05 2020 G nucleotide frequency:  19.39
+    # California 11 10 2020 G nucleotide frequency:  19.39
     
     
 
