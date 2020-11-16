@@ -2,6 +2,9 @@
 
 This project aims at analyzing the genomic sequence of COVID-19.
 
+
+# Data
+
 COVID genomic sequence data can be obtained from here: https://www.ncbi.nlm.nih.gov/sars-cov-2/
 
 Here are some of the samples:
@@ -22,6 +25,7 @@ https://www.ncbi.nlm.nih.gov/nuccore/MW240764
 11 10 2020 Maryland Department of Health
 
 
+# Genome Class
 
 The main class Genome.py can be found here: https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/genome.py
 
