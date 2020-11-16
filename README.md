@@ -24,9 +24,9 @@ Contact: peterk@knights.ucf.edu
 
 # Features
 
-- identifying the start and stop codons for analyzing where the COVID spike protein might begin and end
-
 - analyzing the frequency of C and G nucleotides across samples which have been shown to be linked to the rate of mutation
+
+- identifying the start and stop codons for analyzing where the COVID spike protein might begin and end
 
 - analyzing "Motif X" sequences, which have been show to display mathematical properties and are significant in identifying major protein sequences
 
