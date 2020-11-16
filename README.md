@@ -109,3 +109,42 @@ The results confirm the study, where the C and G nucleotides have decreased in f
 
 Further possible research areas could include analyzing data sets by geolocation and time, and analyzing the rate of mutation.
 
+
+# RSCU Index
+
+A codon in the form of a trinucleotide base such as "ATG" can code for the amino acid, "methionine". MEthionine is an an important amino acid being the most common start codon. In this case only one amino acid "ATG", codes for methionine, so methionine does not have any synonymous codons. However other amino acids do have multiple codons which can code for the same amino acid being termed as "synonymous".  The RSCU index weighs the appearance of various synynomous codons in the genomic sequence to analyze their importance. 
+
+Here is a table of amino acids, and their synonymous codons:
+
+    synonymous_codons = {
+                "CYS": ["TGT", "TGC"],
+                "ASP": ["GAT", "GAC"],
+                "SER": ["TCT", "TCG", "TCA", "TCC", "AGC", "AGT"],
+                "GLN": ["CAA", "CAG"],
+                "MET": ["ATG"],
+                "ASN": ["AAC", "AAT"],
+                "PRO": ["CCT", "CCG", "CCA", "CCC"],
+                "LYS": ["AAG", "AAA"],
+                "TERM": ["TAG", "TGA", "TAA"],
+                "THR": ["ACC", "ACA", "ACG", "ACT"],
+                "PHE": ["TTT", "TTC"],
+                "ALA": ["GCA", "GCC", "GCG", "GCT"],
+                "GLY": ["GGT", "GGG", "GGA", "GGC"],
+                "ILE": ["ATC", "ATA", "ATT"],
+                "LEU": ["TTA", "TTG", "CTC", "CTT", "CTG", "CTA"],
+                "HIS": ["CAT", "CAC"],
+                "ARG": ["CGA", "CGC", "CGG", "CGT", "AGG", "AGA"],
+                "TRP": ["TGG"],
+                "VAL": ["GTA", "GTC", "GTG", "GTT"],
+                "GLU": ["GAG", "GAA"],
+                "TYR": ["TAT", "TAC"],
+            }
+
+
+
+https://en.wikipedia.org/wiki/Start_codon
+
+"Different codons that encode the same amino acid are known as synonymous codons. Even though synonymous codons encode the same amino acid, it has been shown for all organisms that the distribution of these codons in a genome is not random"
+
+https://www.nature.com/articles/nrmicro2090
+
