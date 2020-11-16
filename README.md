@@ -277,6 +277,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5000701/
 
 With RSCU analysis we were able to confirm the above study, that similar to Riemerella anatipestifer, COVID-19 codons ending in A or T are most prevalent by having a high RSCU index closest to 1.0.
 
+Further research can be done in this field analyzing the correlations of virulance factors and the high RSCU codons ending with A or T, which seem to be both present for COVID and the Riemeralla anatispestifer. There is also some correlation displayed between RSCU and Motif X, which could be analyzed for determining protein sequences which contribute to COVID's virulance factors.
+
 
         
         
