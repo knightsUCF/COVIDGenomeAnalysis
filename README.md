@@ -113,10 +113,9 @@ A codon in the form of a trinucleotide base such as "ATG" can code for the amino
 
 Start codons and stop codons are important because they indicate where a protein sequence can begin and end, such as the spike protein in the Corona virus. 
 
+"Synonymous codons influence differently the speed of translation elongation, which guides further cotranslational folding kinetics of a protein."
 
-"Different codons that encode the same amino acid are known as synonymous codons. Even though synonymous codons encode the same amino acid, it has been shown for all organisms that the distribution of these codons in a genome is not random"
-
-https://www.nature.com/articles/nrmicro2090
+https://www.dovepress.com/synonymous-codons-influencing-gene-expression-in-organisms-peer-reviewed-fulltext-article-RRBC
 
 
 Here is a table of amino acids, and their synonymous codons:
