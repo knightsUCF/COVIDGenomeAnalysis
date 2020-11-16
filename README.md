@@ -8,7 +8,11 @@ Pictured: Spike proteins which are responsible for cell entry and infection.
 
 # Introduction
 
-The COVID Genome Analysis project aims at analyzing the genomic sequence of COVID-19.
+The COVID Genome Analysis project aims at analyzing the genomic sequence of COVID-19. Some of the features include:
+
+- identifying the start and stop codons for analyzing where the COVID spike protein might begin and end
+
+- analyzing "Motif X" sequences, which have been show to display mathematical properties and are significant in identifying major protein sequences
 
 Author: Piotr (Peter) Kwiatkowski.
 
