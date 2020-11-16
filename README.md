@@ -353,11 +353,11 @@ A seemingly completely unexplored area of research pertaining to Motif X sequenc
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3128062/
 
-Applying Hidden Markov Model to the Motif X sequence of COVID seems like an area to be explored for further research.
+Applying hidden Markov models to the Motif X sequence, and other machine learning models, to COVID seems like an area to be explored for further research.
 
-In the following paper by Johns Hopkins University: http://www.cs.jhu.edu/~langmea/resources/lecture_notes/hidden_markov_models.pdf
+In the following paper by Johns Hopkins University Markov models are used to locate CpG islands in DNA: http://www.cs.jhu.edu/~langmea/resources/lecture_notes/hidden_markov_models.pdf
 
-Markov models are used to find CpG islands in DNA, which have been linked to the regulation of transcription.
+CpG islands in DNA have been linked to the regulation of transcription.
 
 http://genesdev.cshlp.org/content/25/10/1010.full
 
