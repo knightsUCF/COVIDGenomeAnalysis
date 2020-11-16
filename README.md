@@ -339,6 +339,12 @@ Graph 2 - my results (SARS-COV-2 genome MN908947)
 
 # RSCU and MOTIF X Correlation
 
+When I contacted the research team I asked them if they had detected any correlation between RSCU and the Motif X correlation. They said they did notice correlation but the problem was "complex". This is another area of research which seems to have potential.
+
+"High RSCU values of specific codons indicate that the codon plays an important role in protein synthesis."
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7314694/
+
 # Machine Learning Hidden Markov Models Analysis
 
 
