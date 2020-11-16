@@ -185,7 +185,7 @@ Here is a table of amino acids, and their synonymous codons:
 
 
 
-To calculate the RSCU index of codons:
+To calculate the RSCU index of codons in COVID-19:
 
 
     import genome
