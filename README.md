@@ -309,7 +309,7 @@ And how I formatted my data:
 Codon Index, Length
 (2493, 3)
 
-The 2493 is the index of the codon, and the 3 is the sequence length. In their example they are using nucleotides (divide by 3) as the index. The same data can be derived by taking noting that to convert from nucleotides to codons we simply multiply by three. I wrote a customer parser to graph both of our data which can be found here:
+The 2493 is the index of the codon, and the 3 is the sequence length. In their example they are using nucleotides (divide by 3) as the index. The same data can be derived by noting that to convert from nucleotides to codons we multiply by three. I wrote a custom parser to graph both of our data which can be found here:
 
 https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/parser.py
 
