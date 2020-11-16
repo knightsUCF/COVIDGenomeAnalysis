@@ -39,9 +39,7 @@ https://www.nature.com/articles/nrmicro2090
 
 # Data
 
-COVID genomic sequence data can be obtained from here: https://www.ncbi.nlm.nih.gov/sars-cov-2/
-
-Here are some of the samples:
+COVID genomic sequence data can be obtained from: https://www.ncbi.nlm.nih.gov/sars-cov-2/
 
 
 https://www.ncbi.nlm.nih.gov/nuccore/MN908947
