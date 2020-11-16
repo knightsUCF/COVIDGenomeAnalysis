@@ -33,10 +33,6 @@ Contact: peterk@knights.ucf.edu
 - analyzing "Motif X" sequences, which have been show to display mathematical properties and are significant in identifying major protein sequences
 
 
-"Different codons that encode the same amino acid are known as synonymous codons. Even though synonymous codons encode the same amino acid, it has been shown for all organisms that the distribution of these codons in a genome is not random"
-
-https://www.nature.com/articles/nrmicro2090
-
 
 # Data
 
@@ -117,6 +113,12 @@ A codon in the form of a trinucleotide base such as "ATG" can code for the amino
 
 Start codons and stop codons are important because they indicate where a protein sequence can begin and end, such as the spike protein in the Corona virus. 
 
+
+"Different codons that encode the same amino acid are known as synonymous codons. Even though synonymous codons encode the same amino acid, it has been shown for all organisms that the distribution of these codons in a genome is not random"
+
+https://www.nature.com/articles/nrmicro2090
+
+
 Here is a table of amino acids, and their synonymous codons:
 
     synonymous_codons = {
@@ -147,9 +149,8 @@ Here is a table of amino acids, and their synonymous codons:
 
 https://en.wikipedia.org/wiki/Start_codon
 
-"Different codons that encode the same amino acid are known as synonymous codons. Even though synonymous codons encode the same amino acid, it has been shown for all organisms that the distribution of these codons in a genome is not random"
 
-https://www.nature.com/articles/nrmicro2090
+
 
 
 # MOTIF X
