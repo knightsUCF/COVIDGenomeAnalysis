@@ -17,12 +17,14 @@ https://www.nature.com/articles/nrmicro2090
 The COVID Genome Analysis project aims at analyzing the genomic sequence of COVID-19. The goal of the project is to utilize data analysis and computing to extract patterns from the COVID RNA.
 
 
-![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/DNA.jpg)
-
-
 Author: Piotr (Peter) Kwiatkowski.
 
 Contact: peterk@knights.ucf.edu
+
+
+![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/DNA.jpg)
+
+
 
 
 # Features
