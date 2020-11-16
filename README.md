@@ -29,7 +29,7 @@ Contact: peterk@knights.ucf.edu
 
 # Features
 
-- analyzing the frequency of C and G nucleotides across samples which have been shown to be linked to the rate of mutation
+- analyzing the frequency of C and G nucleotides across samples, which have been shown to be linked to the rate of mutation
 
 - identifying the start and stop codons for analyzing where the COVID spike protein might begin and end
 
