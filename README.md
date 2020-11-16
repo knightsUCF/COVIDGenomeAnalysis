@@ -43,22 +43,22 @@ COVID genomic sequence data can be obtained from here: https://www.ncbi.nlm.nih.
 
 Here are some of the samples:
 
-First record available in the database:
 
 https://www.ncbi.nlm.nih.gov/nuccore/MN908947
-01 05 2020 Shanghai Public Health Clinical Center & School of Public Health
-
-
-https://www.ncbi.nlm.nih.gov/nuccore/MW241329
-11 10 2020 - Utah Public Health Laboratory
-
+01 05 2020 - Shanghai Public Health Clinical Center & School of Public Health
 
 https://www.ncbi.nlm.nih.gov/nuccore/MW228187
 11 06 2020 - Laboratory Services Section, Texas
 
+https://www.ncbi.nlm.nih.gov/nuccore/MW241329
+11 10 2020 - Utah Public Health Laboratory
 
 https://www.ncbi.nlm.nih.gov/nuccore/MW240764
-11 10 2020 Maryland Department of Health
+11 10 2020 - Maryland Department of Health
+
+
+https://www.ncbi.nlm.nih.gov/nuccore/MT483564
+11 10 2020 - Division of Infectious Diseases, California
 
 
 # Genome Class
