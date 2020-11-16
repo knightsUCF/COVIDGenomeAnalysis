@@ -3,7 +3,7 @@
 
 ![COVID GIF](GIFS/COVID.gif)
 
-Pictured: Spike proteins which is responsible for cell entry and infection.
+Pictured: Spike proteins which are responsible for cell entry and infection.
 
 
 # Introduction
