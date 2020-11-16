@@ -288,7 +288,7 @@ I contacted the research team of the study on Motif X and they said that to thei
 
 The motif X research study: https://www.biorxiv.org/content/biorxiv/early/2020/03/23/2020.03.23.003251.full.pdf
 
-I shared my results on how I was calculating the Motif X sequence. Theyconfirmed that my results on calculating the algorithm of Motif X sequencing were reasonable, and they sent me the results of their program which can be found here:
+I shared my results on how I was calculating the Motif X sequence. They confirmed that my results on computing the algorithm of Motif X sequencing were reasonable, and they sent me the results of their program which can be found here:
 
 https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/motif%20x%20results.md
 
