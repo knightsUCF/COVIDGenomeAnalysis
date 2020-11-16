@@ -33,7 +33,9 @@ COVID genomic sequence data can be obtained from here: https://www.ncbi.nlm.nih.
 
 Here are some of the samples:
 
-First record: https://www.ncbi.nlm.nih.gov/nuccore/MN908947
+First record available in the database:
+
+https://www.ncbi.nlm.nih.gov/nuccore/MN908947
 01 05 2020 Shanghai Public Health Clinical Center & School of Public Health
 
 
