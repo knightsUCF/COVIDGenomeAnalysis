@@ -128,7 +128,7 @@ To get the indexes (locations) of where the start and stop codons occuring the C
     
     
     
-Between these locations of the genomic sequence are where the different functional proteins can be found of COVID.
+Between these start and stop codon locations of the genomic sequence are where the different functional proteins can be found of COVID.
 
 
 # RSCU Index
