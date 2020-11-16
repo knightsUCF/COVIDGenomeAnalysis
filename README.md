@@ -2,7 +2,8 @@
 
 The COVID Genome Analysis project aims at analyzing the genomic sequence of COVID-19.
 
-Author: Piotr (Peter) Kwiatkowski. Contact: peterk@knights.ucf.edu
+Author: Piotr (Peter) Kwiatkowski.
+Contact: peterk@knights.ucf.edu
 
 
 # Data
