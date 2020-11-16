@@ -120,7 +120,7 @@ To get the indexes (locations) of where the start and stop codons occurin the CO
 
 # RSCU Index
 
-The amino acid methionin has only one associated codon, the start codon ATG. Methionine does not have any synonymous codons. However other amino acids do have multiple codons which can code for the same amino acid being termed as "synonymous".  The RSCU index weighs the appearance of various synynomous codons in the genomic sequence to analyze their importance.
+The amino acid methionin has only one associated codon, the start codon ATG / AUG. Methionine does not have any synonymous codons. However other amino acids do have multiple codons which can code for the same amino acid being termed as "synonymous".  The RSCU index weighs the appearance of various synynomous codons in the genomic sequence to analyze their importance.
 
 
 
