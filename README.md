@@ -290,7 +290,32 @@ Motif X Research Study: https://www.biorxiv.org/content/biorxiv/early/2020/03/23
 
 I shared my results on how I was calculating the Motif X sequence, and they sent me the results of their program which can be found here:
 
+https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/motif%20x%20results.md
+
+The research team's results: 
+
 https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/motif_x_research_team_results.md
+
+
+Click on "raw" to view the data in tabular form.
+
+Taking a line from how the Motif X research team formatted the data:
+
+Sequence,Start,End,Length,Frame,UniqueTri
+GTA GTT GAA GTT GTT GAT,14839,14856,18,0,4
+
+
+And how I formatted my data:
+Codon Index, Length
+(2493, 3)
+
+The 2493 is the index of the codon, and the 3 is the sequence length. In their example they are using nucleotides (divide by 3) as the index. The same data can be derived by taking noting that to convert from nucleotides to codons we simply multiply by three. I wrote a customer parser to graph both of our data which can be found here:
+
+
+
+
+
+
     
 I am using a set of 3 nucleotides as a codon index, so to convert between the results multiply / divide by three. The researcher confirmed that my results on calculating the algorithm of Motif X sequencing were reasonable.
 
