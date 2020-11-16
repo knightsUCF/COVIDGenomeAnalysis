@@ -299,11 +299,7 @@ To run the Motif X algorithm on the COVID RNA:
     print(mx.GetSegmentsByRank(g.GetCodons()))
 
 
-I contacted the research team of the study on Motif X and they said that to their knowledge there is no active research being done on Motif X in the United States.
-
-
-
-I shared my results on how I was calculating the Motif X sequence. They confirmed that my results on computing the algorithm of Motif X sequencing were reasonable, and they sent me the results of their program.
+I contacted the research team of the study on Motif X and they said that to their knowledge there is no active research being done on Motif X in the United States. I shared my results on how I was calculating the Motif X sequence. They confirmed that my results on computing the algorithm of Motif X sequencing were reasonable, and they sent me the results of their program.
 
 The research team's results on analyzing the appearance of the Motif X sequence in the RNA of COVID:
 
