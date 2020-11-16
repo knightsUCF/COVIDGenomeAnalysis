@@ -28,9 +28,10 @@ Contact: peterk@knights.ucf.edu
 
 - identifying the start and stop codons for analyzing where the COVID spike protein might begin and end
 
+- calculating the RSCU index (weighs synonymous codons)
+
 - analyzing "Motif X" sequences, which have been show to display mathematical properties and are significant in identifying major protein sequences
 
-- calculating the RSCU index (weighs synonymous codons)
 
 "Different codons that encode the same amino acid are known as synonymous codons. Even though synonymous codons encode the same amino acid, it has been shown for all organisms that the distribution of these codons in a genome is not random"
 
@@ -149,4 +150,14 @@ https://en.wikipedia.org/wiki/Start_codon
 "Different codons that encode the same amino acid are known as synonymous codons. Even though synonymous codons encode the same amino acid, it has been shown for all organisms that the distribution of these codons in a genome is not random"
 
 https://www.nature.com/articles/nrmicro2090
+
+
+# MOTIF X
+
+
+# RSCU and MOTIF X Correlation
+
+# Machine Learning Hidden Markov Models Analysis
+
+
 
