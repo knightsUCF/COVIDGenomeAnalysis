@@ -523,7 +523,7 @@ class Genome():
         ranked_by_index = collections.OrderedDict(sorted(self.index.items(), key=lambda kv: kv[1]))
 
         output = pprint.PrettyPrinter(indent = 4)
-        # output.pprint(ranked_by_index)
+        output.pprint(ranked_by_index)
 
         return ranked_by_index
 
