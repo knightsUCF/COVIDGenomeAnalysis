@@ -27,6 +27,17 @@ Author: Piotr (Peter) Kwiatkowski.
 Contact: peterk@knights.ucf.edu
 
 
+# Features
+
+
+
+- calculating the RSCU index (weighs synonymous codons)
+
+"Different codons that encode the same amino acid are known as synonymous codons. Even though synonymous codons encode the same amino acid, it has been shown for all organisms that the distribution of these codons in a genome is not random"
+
+https://www.nature.com/articles/nrmicro2090
+
+
 # Data
 
 COVID genomic sequence data can be obtained from here: https://www.ncbi.nlm.nih.gov/sars-cov-2/
