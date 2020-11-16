@@ -366,7 +366,6 @@ http://genesdev.cshlp.org/content/25/10/1010.full
 
 # Summary 
 
- In applying for a PhD in computer science I would like to explore big data, machine learning, bioinformatics, genomics, genome analysis, and the mathematical properties of "Motif X", and their function in sychronizing protein sequences. There is a lot of potential in this field for big data, machine learning, and computing analysis.
- 
+ In applying for a PhD in computer science I would like to explore big data, machine learning, bioinformatics, genomics, genome analysis, and the mathematical properties of "Motif X", and their function in sychronizing protein sequences. There is a lot of potential in this field for research, and also the possibility to further the understanding of COVID.
 
 
