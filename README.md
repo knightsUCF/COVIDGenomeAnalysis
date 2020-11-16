@@ -1,4 +1,4 @@
-![COVID GIF](gifs/covid.gif)
+![COVID GIF](GIFS/COVID.gif)
 
 
 # Introduction
