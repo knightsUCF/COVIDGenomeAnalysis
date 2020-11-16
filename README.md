@@ -7,6 +7,10 @@ Pictured: spike proteins which are responsible for cell entry and infection.
 
 https://jvi.asm.org/content/77/16/8801
 
+Spike proteins are a target for vaccine development.
+
+https://www.nature.com/articles/nrmicro2090
+
 
 # Introduction
 
