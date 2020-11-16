@@ -286,7 +286,7 @@ With RSCU analysis we were able to confirm the above study, that similar to Riem
 
 I contacted the resaercher of this study on Motif X and he said that to his knowledge there is no active research being done on Motif X in the United States. In applying for a PhD in computer science I would like to explore the mathematical properties of "Motif X", and their function in sychronizing protein sequences.
 
-https://www.biorxiv.org/content/biorxiv/early/2020/03/23/2020.03.23.003251.full.pdf
+Motif X Research Study: https://www.biorxiv.org/content/biorxiv/early/2020/03/23/2020.03.23.003251.full.pdf
 
 I shared my results on how I was calculating the Motif X sequence, and one of the other researchers sent me the results of their program which can be found here:
 
