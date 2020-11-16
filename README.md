@@ -282,7 +282,7 @@ With RSCU analysis we were able to confirm the above study, that similar to Riem
         
 # MOTIF X
 
-"Motif X" is a sequence of codons which exhibits mathematical properties, which seem to be used by biological mechanism to synchronize protein sequencing in DNA / RNA. Work on Motif X has only been started and there is not a lot of research done yet in this field. 
+"Motif X" is a special sequence of codons which exhibits mathematical properties, which seem to be used by biological mechanism to synchronize protein sequencing in DNA / RNA. Work on Motif X has only been started and there is not a lot of research done yet in this field. 
 
 I contacted the resaercher of this study on Motif X and he said that to his knowledge there is no active research being done on Motif X in the United States. In applying for a PhD in computer science I would like to explore the mathematical properties of "Motif X", and their function in sychronizing protein sequences.
 
