@@ -14,6 +14,8 @@ The COVID Genome Analysis project aims at analyzing the genomic sequence of COVI
 
 - identifying the start and stop codons for analyzing where the COVID spike protein might begin and end
 
+- analyzing the frequency of C and G nucleotides across samples which have been show to be linked to the rate of mutation
+
 - analyzing "Motif X" sequences, which have been show to display mathematical properties and are significant in identifying major protein sequences
 
 Author: Piotr (Peter) Kwiatkowski.
