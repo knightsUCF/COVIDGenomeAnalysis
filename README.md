@@ -37,7 +37,19 @@ This class provides the methods for:
 
 - between the start and stop codons, protein sequences can be identified which are the target for vaccines
 
-- 
+
+
+# COVID Mutations
+
+The rate of COVID mutation has been linked to the frequency of C and G nucleotides.
+
+"We found that CG reduction in SARS-CoV-2 is achieved mainly through mutating C/G into A/T, and CG is the best target for mutation"
+
+https://www.nature.com/articles/s41598-020-69342-y
+
+We can test with the code by:
+
+
 
 
 
