@@ -123,7 +123,7 @@ https://en.wikipedia.org/wiki/Stop_codon
 ![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/start%20end%20codons.jpg)
 
 
-To get the indexes (locations) of where the start and stop codons occuring the COVID genomic sequence:
+To get the indexes (locations) of where the start and stop codons occur the COVID genomic sequence:
 
     import genome
 
