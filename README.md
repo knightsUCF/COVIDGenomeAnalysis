@@ -108,7 +108,7 @@ Further possible research areas could include analyzing data sets by geolocation
 
 # Start and Stop Codons
 
-Start codons and stop codons are significant because they indicate where a protein sequence can begin and end, such as the spike protein in the Corona virus. A codon in the form of a trinucleotide ATG codes for the amino acid, "methionine". Methionine is an important amino acid being the most common start codon. 
+Start codons and stop codons are significant because they indicate where a protein sequence can begin and end, such as the spike protein in the Corona virus. A codon in the form of a trinucleotide ATG codes for the amino acid, methionine. Methionine is an important amino acid being the most common start codon. 
 
 https://en.wikipedia.org/wiki/Start_codon
 
