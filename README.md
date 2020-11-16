@@ -106,12 +106,23 @@ The results confirm the study, where the C and G nucleotides have decreased in f
 
 Further possible research areas could include analyzing data sets by geolocation and time, and analyzing the rate of mutation.
 
+# Start and Stop Codons
+
+Start codons and stop codons are important because they indicate where a protein sequence can begin and end, such as the spike protein in the Corona virus. 
+
+![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/start%20end%20codons.jpg)
+
+
+To get the indexes (locations) of where the start and stop codons occurin the COVID genomic sequence:
+
+
+
 
 # RSCU Index
 
 A codon in the form of a trinucleotide base such as "ATG" can code for the amino acid, "methionine". Methionine is an important amino acid being the most common start codon. (https://en.wikipedia.org/wiki/Start_codon) In this case only one amino acid "ATG", codes for methionine, so methionine does not have any synonymous codons. However other amino acids do have multiple codons which can code for the same amino acid being termed as "synonymous".  The RSCU index weighs the appearance of various synynomous codons in the genomic sequence to analyze their importance.
 
-Start codons and stop codons are important because they indicate where a protein sequence can begin and end, such as the spike protein in the Corona virus. 
+
 
 "Synonymous codons influence differently the speed of translation elongation, which guides further cotranslational folding kinetics of a protein."
 
