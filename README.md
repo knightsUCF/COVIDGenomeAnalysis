@@ -14,13 +14,8 @@ https://www.nature.com/articles/nrmicro2090
 
 # Introduction
 
-The COVID Genome Analysis project aims at analyzing the genomic sequence of COVID-19. Some of the features include:
+The COVID Genome Analysis project aims at analyzing the genomic sequence of COVID-19.
 
-- identifying the start and stop codons for analyzing where the COVID spike protein might begin and end
-
-- analyzing the frequency of C and G nucleotides across samples which have been shown to be linked to the rate of mutation
-
-- analyzing "Motif X" sequences, which have been show to display mathematical properties and are significant in identifying major protein sequences
 
 Author: Piotr (Peter) Kwiatkowski.
 
@@ -29,7 +24,11 @@ Contact: peterk@knights.ucf.edu
 
 # Features
 
+- identifying the start and stop codons for analyzing where the COVID spike protein might begin and end
 
+- analyzing the frequency of C and G nucleotides across samples which have been shown to be linked to the rate of mutation
+
+- analyzing "Motif X" sequences, which have been show to display mathematical properties and are significant in identifying major protein sequences
 
 - calculating the RSCU index (weighs synonymous codons)
 
