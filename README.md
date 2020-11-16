@@ -300,7 +300,7 @@ My results:
 https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/motif%20x%20results.md
 
 
-Click on "raw" to view the data in tabular form.
+(click on "raw" to view the data in tabular form.)
 
 Taking a line from how the Motif X research team formatted the data:
 
