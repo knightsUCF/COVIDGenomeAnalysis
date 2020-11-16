@@ -107,5 +107,5 @@ We can test this by:
 
 The results confirm the study, where the C and G nucleotides have decreased in frequency from the January sample to the November sample, indicating the virus has mutated since.
 
-Possible research areas could include analyzing large data sets and analyze the rate of mutation.
+Possible research areas could include analyzing large data sets and analyzing the rate of mutation.
 
