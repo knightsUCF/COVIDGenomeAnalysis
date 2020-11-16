@@ -155,6 +155,11 @@ https://www.dovepress.com/synonymous-codons-influencing-gene-expression-in-organ
 
 https://virologyj.biomedcentral.com/articles/10.1186/s12985-020-01395-x
 
+"High RSCU values of specific codons indicate that the codon plays an important role in protein synthesis."
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7314694/
+
+
 
 
 Here is a table of amino acids, and their synonymous codons:
@@ -276,6 +281,38 @@ With RSCU analysis we were able to confirm the above study, that similar to Riem
         
         
 # MOTIF X
+
+"Motif X" is a sequence of codons which exhibits mathematical properties, which seem to be used by biological mechanism to synchronize protein sequencing in DNA / RNA. Work on Motif X has only been started and there is not a lot of research done yet in this field. 
+
+I contacted the resaercher of this study on Motif X and he said that to his knowledge there is no active research being done on Motif X in the United States. In applying for a PhD in computer science I would like to explore the mathematical properties of "Motif X", and their function in sychronizing protein sequences.
+
+https://www.biorxiv.org/content/biorxiv/early/2020/03/23/2020.03.23.003251.full.pdf
+
+I shared my results on how I was calculating the Motif X sequence, and one of the other researchers sent me the results of their program which can be found here:
+
+<results link>
+    
+I am using a set of 3 nucleotides as a codon index, so to convert between the results multiply / divide by three. 
+
+The researcher confirmed that my results on calculating the algorithm of Motif X sequencing were reasonable. 
+
+I went ahead and graphed both of our results:
+
+
+
+Graph 1 - results of the original resaearch team (sars-cov-2 genome MT072688.1.)
+
+Graph 2 - my results (sars-cov-2 genome MN908947)
+
+
+
+
+
+
+
+
+
+
 
 
 # RSCU and MOTIF X Correlation
