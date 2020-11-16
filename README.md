@@ -294,7 +294,10 @@ https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/motif_x_research_tea
     
 I am using a set of 3 nucleotides as a codon index, so to convert between the results multiply / divide by three. 
 
-The researcher confirmed that my results on calculating the algorithm of Motif X sequencing were reasonable. 
+The researcher confirmed that my results on calculating the algorithm of Motif X sequencing were reasonable.
+
+
+
 
 I went ahead and graphed both of our results:
 
