@@ -347,10 +347,24 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7314694/
 
 # Machine Learning Hidden Markov Models Analysis
 
+A seemingly completely unexplored area of research pertaining to Motif X sequences is the application of machine learning.
+
+"Markov modeling has long been applied to DNA sequences, for example to find gene-coding regions. With the first studies came the discovery that DNA sequences are non-stationary: distinct regions require distinct model orders."
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3128062/
+
+Applying Hidden Markov Model to the Motif X sequence of COVID seems like an area to be explored for further research.
+
+In the following paper by Johns Hopkins University: http://www.cs.jhu.edu/~langmea/resources/lecture_notes/hidden_markov_models.pdf
+
+Markov models are used to find CpG islands in DNA, which have been linked to the regulation of transcription.
+
+
+
 
 # Summary 
 
- In applying for a PhD in computer science I would like to explore the mathematical properties of "Motif X", and their function in sychronizing protein sequences. There is a lot of potential in this field for big data, machine learning, and computing analysis.
+ In applying for a PhD in computer science I would like to explore bioinformatics, genomics, and the mathematical properties of "Motif X", and their function in sychronizing protein sequences. There is a lot of potential in this field for big data, machine learning, and computing analysis.
  
 
 
