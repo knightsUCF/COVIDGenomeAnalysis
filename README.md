@@ -309,18 +309,7 @@ I contacted the research team of the study on Motif X and they said that to thei
 https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/motif_x_research_team_results.md
 
 
-
-Taking a line from how the Motif X research team formatted the data:
-
-Sequence,Start,End,Length,Frame,UniqueTri
-GTA GTT GAA GTT GTT GAT,14839,14856,18,0,4
-
-
-And how I formatted my data:
-Codon Index, Length
-(2493, 3)
-
-The 2493 is the index of the codon, and the 3 is the sequence length. In their example they are using nucleotides (divide by 3) as the index. The same data can be derived by noting that to convert from nucleotides to codons we multiply by three. I wrote a custom parser to graph both of our data which can be found here:
+To note I used codons as indexes, while they used nucloetides as indexes. To convert from nucleotides to codons, simply multiply by three. I wrote a custom parser to graph both of our data which can be found here:
 
 https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/parser.py
 
