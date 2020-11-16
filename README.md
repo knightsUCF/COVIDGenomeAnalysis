@@ -284,6 +284,8 @@ With RSCU analysis we were able to confirm the above study, that similar to Riem
 
 "Motif X" is a special sequence of codons which exhibits mathematical properties. When detected this sequence seems to be used by biological mechanisms to synchronize DNA / RNA. Work on Motif X has only been started and there is not a lot of research done yet in this field.
 
+The Motif X research study: https://www.biorxiv.org/content/biorxiv/early/2020/03/23/2020.03.23.003251.full.pdf
+
 
 To run the Motif X algorithm on the COVID RNA:
 
@@ -299,7 +301,7 @@ To run the Motif X algorithm on the COVID RNA:
 
 I contacted the research team of the study on Motif X and they said that to their knowledge there is no active research being done on Motif X in the United States.
 
-The motif X research study: https://www.biorxiv.org/content/biorxiv/early/2020/03/23/2020.03.23.003251.full.pdf
+
 
 I shared my results on how I was calculating the Motif X sequence. They confirmed that my results on computing the algorithm of Motif X sequencing were reasonable, and they sent me the results of their program.
 
