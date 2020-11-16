@@ -359,6 +359,8 @@ In the following paper by Johns Hopkins University: http://www.cs.jhu.edu/~langm
 
 Markov models are used to find CpG islands in DNA, which have been linked to the regulation of transcription.
 
+http://genesdev.cshlp.org/content/25/10/1010.full
+
 
 
 
