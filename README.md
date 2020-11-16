@@ -1,4 +1,4 @@
-[Alt Text](https://gph.is/g/ZOkprrv)
+![COVID GIF](gifs/covid.gif)
 
 
 # Introduction
