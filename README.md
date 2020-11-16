@@ -63,7 +63,7 @@ https://www.ncbi.nlm.nih.gov/nuccore/MT483564
 
 # Genome Class
 
-The main class Genome.py can be found here: https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/genome.py
+The Genome.py class can be found here: https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/genome.py
 
 This class provides the methods for:
 
