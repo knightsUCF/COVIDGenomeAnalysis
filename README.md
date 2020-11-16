@@ -288,15 +288,11 @@ I contacted the research team of this study on Motif X and they said that to the
 
 Motif X Research Study: https://www.biorxiv.org/content/biorxiv/early/2020/03/23/2020.03.23.003251.full.pdf
 
-I shared my results on how I was calculating the Motif X sequence, and one of the other researchers sent me the results of their program which can be found here:
+I shared my results on how I was calculating the Motif X sequence, and they sent me the results of their program which can be found here:
 
 https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/motif_x_research_team_results.md
     
-I am using a set of 3 nucleotides as a codon index, so to convert between the results multiply / divide by three. 
-
-The researcher confirmed that my results on calculating the algorithm of Motif X sequencing were reasonable.
-
-
+I am using a set of 3 nucleotides as a codon index, so to convert between the results multiply / divide by three. The researcher confirmed that my results on calculating the algorithm of Motif X sequencing were reasonable.
 
 
 I went ahead and graphed both of our results:
