@@ -95,10 +95,10 @@ We can test this by:
     
     
     # output:
-    China 01 05 2020 C nucleotide frequency:  18.37
-    China 01 05 2020 G nucleotide frequency:  19.61
-    California 11 10 2020 C nucleotide frequency:  18.16
-    California 11 05 2020 G nucleotide frequency:  19.39
+    # China 01 05 2020 C nucleotide frequency:  18.37
+    # China 01 05 2020 G nucleotide frequency:  19.61
+    # California 11 10 2020 C nucleotide frequency:  18.16
+    # California 11 05 2020 G nucleotide frequency:  19.39
     
     
 
@@ -123,8 +123,8 @@ To get the indexes (locations) of where the start and stop codons occuring the C
     print(g.GetStopCodonIndexes())
 
     # output
-    [106, 265, 407, 467, 488, 506, 512, 517, ...]
-    [2, 24, 53, 66, 77, 111, 129, 133, 136, ...]
+    # [106, 265, 407, 467, 488, 506, 512, 517, ...]
+    # [2, 24, 53, 66, 77, 111, 129, 133, 136, ...]
     
     
     
