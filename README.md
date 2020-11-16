@@ -1,4 +1,4 @@
-# COVID GENOME ANALYSIS
+# Covid Genome Analysis
 
 
 ![COVID GIF](GIFS/COVID.gif)
