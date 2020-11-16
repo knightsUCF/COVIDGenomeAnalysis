@@ -265,7 +265,7 @@ To calculate the RSCU index of codons:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5000701/
 
 
-With RSCU analysis we were able to confirm the above study, that similar to Riemerella anatipestifer, COVID-19 codons ending in A or U (T) are most prevalent
+With RSCU analysis we were able to confirm the above study, that similar to Riemerella anatipestifer, COVID-19 codons ending in A or U (T) are most prevalent by having a high RSCU index closest to 1.0.
 
 
         
