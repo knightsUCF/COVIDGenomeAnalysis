@@ -113,9 +113,22 @@ Start codons and stop codons are important because they indicate where a protein
 ![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/start%20end%20codons.jpg)
 
 
-To get the indexes (locations) of where the start and stop codons occurin the COVID genomic sequence:
+To get the indexes (locations) of where the start and stop codons occuring the COVID genomic sequence:
 
+    import genome
 
+    g = genome.Genome('MN908947_China_01_05_2020.txt')
+
+    print(g.GetStartCodonIndexes())
+    print(g.GetStopCodonIndexes())
+
+    # output
+    [106, 265, 407, 467, 488, 506, 512, 517, ...]
+    [2, 24, 53, 66, 77, 111, 129, 133, 136, ...]
+    
+    
+    
+Between these locations of the genomic sequence are where the different functional proteins can be found of COVID.
 
 
 # RSCU Index
