@@ -11,7 +11,7 @@ Version 1.1 adds the ability to:
 - we can get all the proteins categorized by names: `protein.GetAllLabeledProteinNames(protein_records)`
 
 
-- we can get protein similiarities (mutations) by name: `protein.GetAllLabeledProteinNames(protein_records)`
+- we can get protein similiarities (mutations) by name, since this can save us a lot of time instead of processing all protein mutations `protein.GetAllLabeledProteinNames(protein_records)`
 
 
 # Downloading All Protein Sequences
