@@ -7,3 +7,7 @@ https://www.sciencedaily.com/releases/2020/11/201110133141.htm
 
 https://www.statnews.com/2020/11/10/the-story-of-mrna-how-a-once-dismissed-idea-became-a-leading-technology-in-the-covid-vaccine-race/
 
+
+Complete Genomic Sequence of Human Coronavirus OC43: Molecular Clock Analysis Suggests a Relatively Recent Zoonotic Coronavirus Transmission Event
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC544107/
