@@ -16,3 +16,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC544107/
 
 https://biocyc.org/gene?orgid=ECOLI&id=EG30065
 
+
+The Order of Nucleotides in a Gene Is Revealed by DNA Sequencing
+
+
+https://www.nature.com/scitable/topicpage/the-order-of-nucleotides-in-a-gene-6525806/
+
