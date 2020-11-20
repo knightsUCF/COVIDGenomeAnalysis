@@ -1,6 +1,8 @@
 from Bio import SeqIO
 
 
+# download from: https://www.ncbi.nlm.nih.gov/sars-cov-2/
+
 
 class Records():
 
