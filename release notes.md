@@ -124,6 +124,33 @@ We can then select a similarity analysis by protein name: (ORF3a)
 
 
 
+    '''
+    output:
+    
+    (comparing to the first protein instance)
+    # todo: specify custom protein sequence,
+    # or compare to the most common found one
+    
+
+    1.0
+    0.20363636363636364
+    0.20363636363636364
+    0.20363636363636364
+    0.20363636363636364
+    0.20363636363636364
+    0.02909090909090909
+    0.7890909090909091
+    0.20363636363636364
+    0.20363636363636364
+    0.92
+    1.0
+    0.20363636363636364
+    1.0
+    
+    ...
+    '''
+
+
 
 
 
