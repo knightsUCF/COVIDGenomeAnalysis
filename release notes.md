@@ -8,7 +8,7 @@ Version 1.1 adds the ability to:
 - in records.py we automatically create an organized list which categorizes each protein variation sequence under the labeled name of the protein
 
 
-- we can get all the proteins categorized by names: `protein.GetAllLabeledProteinNames(protein_records)`
+- we can get all available labeled protein names from the database: `protein.GetAllLabeledProteinNames(protein_records)`
 
 
 - we can get protein similiarities (mutations) by name, since this can save us a lot of time instead of processing all protein mutations `protein.GetAllLabeledProteinNames(protein_records)`
