@@ -29,6 +29,7 @@ https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/src/records.py
     protein_records = records.GetAllProteinSequences(file_path)
 
     protein.GetAllLabeledProteinNames(protein_records)
+
     
     '''
     output
