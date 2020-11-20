@@ -7,7 +7,6 @@ Version 1.1 adds the ability to:
 
 - in records.py we automatically create a list which categorizes each protein variation sequence under the labeled name of the protein.
 
-https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/src/records.py
 
 - we can get all the proteins categorized by names: `protein.GetAllLabeledProteinNames(protein_records)`
 
