@@ -20,5 +20,13 @@ Database of Interacting Proteins
 
 www.highwire.org
 
+flybase.bio.indiana.edu
+
+www.wormbase.org
+
+Mouse Genome Database (MGD) www.informatics.jax.org/mgihome/MGD/aboutMGD.shtml
+
+Saccharomyces Genome Database (SGD) (www.yeastgenome.org)
+
 
 
