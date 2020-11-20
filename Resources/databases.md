@@ -2,9 +2,9 @@ PubMed (https://pubmed.ncbi.nlm.nih.gov/)
 
 PubMed Central (https://www.pubmedcentral.nih.gov)
 
-Public Library of Science (PLOS)
+Public Library of Science (PLOS) www.publiclibraryofscience.org
 
-BioMed Central 
+BioMed Central (www.biomedcentral.com)
 
 SwissProt
 
@@ -17,4 +17,8 @@ Gene Ontology (GO) consortium
 Munich Information Center for Protein SEquences (MIPS)
 
 Database of Interacting Proteins
+
+www.highwire.org
+
+
 
