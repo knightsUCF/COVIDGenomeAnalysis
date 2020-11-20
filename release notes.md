@@ -118,6 +118,13 @@ We can then select a similarity analysis by protein name: ORF3a
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1287583/
 
 
+ORF3a mutations:
+
+https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/results/ORF3a_mutations.txt
+
+
+
+
     import records
     import protein
     
