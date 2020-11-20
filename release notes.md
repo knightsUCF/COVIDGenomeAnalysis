@@ -27,4 +27,5 @@
     protein_records = records.GetAllProteinSequences(file_path)
 
     # this can take a while
+    # note: protein names are organized by how the original uploader of the record filed them
     protein.DetermineSimilarity(protein_records)
