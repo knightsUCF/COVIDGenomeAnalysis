@@ -102,6 +102,25 @@ Determining protein similarities for all proteins and all records can take a lon
 We can then select a similarity analysis by protein name:
 
 
+    import records
+    import protein
+    
+    
+    records = records.Records()
+    protein = protein.Protein()
+
+
+    file_path = 'sequences.fasta'
+    
+    protein_records = records.GetAllProteinSequences(file_path)
+    
+    protein_name = 'nsp2'
+    
+    protein.DetermineSimilarityByProtein(protein_records, protein_name)
+
+
+
+
 
 
 
