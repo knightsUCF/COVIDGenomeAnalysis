@@ -107,12 +107,15 @@ Determining protein similarities for all proteins and all records can take a lon
 
     protein.GetAllLabeledProteinNames(protein_records)
     
+
+
+
+We can then select a similarity analysis by protein name: ORF3a
+
+
 "The greatest reduction in virus growth was noted following ORF3a deletion."
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1287583/
-
-
-We can then select a similarity analysis by protein name: (ORF3a)
 
 
     import records
