@@ -3,7 +3,9 @@
 
 Version 1.1 adds the ability to process the entire catalog of downloaded COVID sequences from: https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=SARS-CoV-2,%20taxid:2697049
 
-In record.py we automatically create a list which categorizes each protein variation sequence under the labeled name of the protein.
+In records.py we automatically create a list which categorizes each protein variation sequence under the labeled name of the protein.
+
+https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/src/records.py
 
 
 # Downloading All Protein Sequences
