@@ -139,6 +139,10 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1287583/
     '''
     output:
     
+    ORF3a mutations:
+    
+    https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/results/ORF3a_mutations.txt
+    
     (comparing to the first protein instance)
     # todo: specify custom protein sequence,
     # or compare to the most common found one
