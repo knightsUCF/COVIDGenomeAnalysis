@@ -13,6 +13,12 @@ class Protein():
                 how_similar = SequenceMatcher(None, compare_to, record).ratio()
                 print(how_similar)
                 
+              
+     def DetermineSimilarityByProtein(self, protein_records, protein_name):
+        for record in protein_records[protein_name]:
+            how_similar = SequenceMatcher(None, compare_to, record).ratio()
+            print(how_similar)
+                
                 
     def GetAllLabeledProteinNames(self, protein_records):
         protein_names = []
