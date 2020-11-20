@@ -44,3 +44,6 @@ Data analysis and visualization in genomics and proteomics
 
 Functional Genomics: Methods and Protocols
 
+
+Essentials of Genomics and Bioinformatics
+
