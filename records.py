@@ -1,6 +1,10 @@
 from Bio import SeqIO
 
 
+# to get all available records in one go
+# example is for protein sequences
+# https://www.ncbi.nlm.nih.gov/sars-cov-2/
+
 
 database = {}
 
