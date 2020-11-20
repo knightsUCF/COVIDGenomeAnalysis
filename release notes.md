@@ -98,8 +98,12 @@ Determining protein similarities for all proteins and all records can take a lon
 
     protein.GetAllLabeledProteinNames(protein_records)
     
-    
-We can then select a similarity analysis by protein name:
+"The greatest reduction in virus growth was noted following ORF3a deletion."
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1287583/
+
+
+We can then select a similarity analysis by protein name: (ORF3a)
 
 
     import records
@@ -114,7 +118,7 @@ We can then select a similarity analysis by protein name:
     
     protein_records = records.GetAllProteinSequences(file_path)
     
-    protein_name = 'nsp2'
+    protein_name = 'ORF3a'
     
     protein.DetermineSimilarityByProtein(protein_records, protein_name)
 
