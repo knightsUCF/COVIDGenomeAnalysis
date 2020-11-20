@@ -17,9 +17,10 @@ for record in SeqIO.parse("data/sequences.fasta", "fasta"):
 for i in database:
     print(i, database[i])
 
-    
-'''
 
+    
+
+'''
 gives output in the following form:
 
 - key: protein
