@@ -4,7 +4,7 @@ from Bio import SeqIO
 
 database = {}
 
-# this is the entire fasta protein sequence collection all in one file, 500mb+, 10 million lines of data, needs to be downloaded off the site
+# this is the entire fasta protein sequence collection all records in one file, 500mb+, 10 million lines of data, needs to be downloaded off the site
 for record in SeqIO.parse("data/sequences.fasta", "fasta"):
     description_words = record.description.split()
     if description_words[1][1:] not in database:
