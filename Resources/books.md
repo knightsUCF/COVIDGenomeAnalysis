@@ -47,7 +47,7 @@ Functional Genomics: Methods and Protocols
 
 Essentials of Genomics and Bioinformatics
 
-Molecular and Cellular Biology of Viruses
+Molecular and Cellular Biology of Viruses (page 15 goes over Spike protein in SARS)
 
 
 
