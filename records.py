@@ -5,8 +5,7 @@ from Bio import SeqIO
 database = {}
 
 
-# this is the entire protein sequence collection of all records in one FASTA file, 500mb+, 10 million lines of data, needs to be downloaded off the site
-file_path = "data/sequences.fasta" # replace with the file path of the downloaded FASTA file
+file_path = "data/sequences.fasta" # replace with the file path of the downloaded FASTA file, this is the entire protein sequence collection of all records in one FASTA file, 500mb+, 10 million lines of data, needs to be downloaded off the site
 
 for record in SeqIO.parse(file_path, "fasta"):
     description_words = record.description.split()
