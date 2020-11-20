@@ -21,6 +21,15 @@ class Protein():
             for record in protein_records[protein]:
                 how_similar = SequenceMatcher(None, compare_to, record).ratio()
                 print(how_similar)
+                
+                
+                
+    def GetAllLabeledProteinNames(self, protein_records):
+        protein_names = []
+        for protein in protein_records:
+            protein_names.append(protein)
+            print(protein)
+        return protein_names
 
                 
 '''
