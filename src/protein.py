@@ -28,7 +28,6 @@ class Protein():
         protein_names = []
         for protein in protein_records:
             protein_names.append(protein)
-            print(protein)
         return protein_names
 
                 
