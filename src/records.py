@@ -7,7 +7,7 @@ from Bio import SeqIO
 class Records():
 
     def GetAllProteinSequences(self, file_path):
-        print('Categorizing protein sequences...')
+        print('Categorizing protein sequences...\n')
         database = {}
         for record in SeqIO.parse(file_path, "fasta"):
             description_words = record.description.split()
