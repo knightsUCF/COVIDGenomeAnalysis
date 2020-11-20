@@ -2,7 +2,7 @@
 # Version 1.1
 
 
-<add mutation chart here of significant proteins>
+(add mutation chart here of significant proteins)
 
 Version 1.1 adds the ability to:
 
