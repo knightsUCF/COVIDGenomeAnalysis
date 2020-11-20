@@ -92,6 +92,18 @@ https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/src/records.py
     ORF7
     '''
 
+# Determining Protein Similarity (Mutation) by Protein Name
+
+Determining protein similarities for all proteins and all records can take a long time. Once we run:
+
+    protein.GetAllLabeledProteinNames(protein_records)
+    
+    
+We can then select a similarity analysis by protein name:
+
+
+
+
 
 # Comparing Protein Mutations
 
