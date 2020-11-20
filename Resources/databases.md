@@ -8,7 +8,9 @@ BioMed Central (www.biomedcentral.com)
 
 SwissProt
 
-LocusLink
+LocusLink www.ncbi.nih.gov/LocusLink
+
+Entrez Gene
 
 facultyof1000.com
 
