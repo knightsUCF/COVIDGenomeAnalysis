@@ -14,7 +14,7 @@ https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/src/records.py
 # Organizing Protein Sequences by Individual Protein
 
 
-# Get All Protein Labeled Names from Records
+# Get All Labeled Protein Names from Records
 
 
     import records
