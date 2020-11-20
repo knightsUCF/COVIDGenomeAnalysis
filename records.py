@@ -2,7 +2,7 @@ from Bio import SeqIO
 
 
 # to get all available records in one go
-# example is for protein sequences
+# example is for protein sequences (10 million lines of data in one FASTA file)
 # https://www.ncbi.nlm.nih.gov/sars-cov-2/
 
 
