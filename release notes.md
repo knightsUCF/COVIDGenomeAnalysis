@@ -185,3 +185,5 @@ We can then select a similarity analysis by protein name: (ORF3a)
 - get all labeled protein names
 
 - do similarity analysis for specific proteins
+
+- graph mutations
