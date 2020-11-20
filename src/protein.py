@@ -1,5 +1,7 @@
-class Protein():
+from difflib import SequenceMatcher
 
+
+class Protein():
 
     '''
     records = Records()
@@ -8,8 +10,8 @@ class Protein():
 
     DetermineSimilarity(protein_records)
     '''
-    
 
+    # warning: this can crash if computer specs are not enough to process 10 million lines in the complete record
     def DetermineSimilarity(self, protein_records):
         for protein in protein_records:
         compare_to = protein_records[protein][0] # compare everything to the first protein record, can also compare to a selected sequence
