@@ -26,6 +26,7 @@ https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/src/records.py
 
 
     file_path = 'sequences.fasta'
+    
     protein_records = records.GetAllProteinSequences(file_path)
 
     protein.GetAllLabeledProteinNames(protein_records)
