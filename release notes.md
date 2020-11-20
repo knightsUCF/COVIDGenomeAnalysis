@@ -35,3 +35,10 @@ https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/src/records.py
     # note: protein names are organized by how the original uploader of the record filed them
     
     protein.DetermineSimilarity(protein_records)
+
+
+# TODO:
+
+- get all labeled protein names
+
+- do similarity analysis for specific proteins
