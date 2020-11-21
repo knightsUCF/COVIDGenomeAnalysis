@@ -23,6 +23,7 @@ Features:
 Later we will add separate methods for downloading nucleotides versus protein.
 
 ```python
+  
 from Bio import SeqIO
 
 
@@ -35,11 +36,11 @@ class Records():
         print('Categorizing protein sequences...\n')
         proteins = {}
         for record in SeqIO.parse(file_path, "fasta"):
-            description_words = record.description.split()
-            if description_words[1][1:] not in proteins:
-                proteins[description_words[1][1:]] = []
+            labels = record.description.split()
+            if labels[1][1:] not in proteins:
+                proteins[labels[1][1:]] = []
             sequence = record.seq
-            proteins[description_words[1][1:]].append(str(sequence))
+            proteins[labels[1][1:]].append(str(sequence))
         return proteins
  ```
 
