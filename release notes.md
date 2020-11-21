@@ -23,7 +23,6 @@ Features:
 Later we will add separate methods for downloading nucleotides versus protein.
 
 ```python
-  
 from Bio import SeqIO
 
 
