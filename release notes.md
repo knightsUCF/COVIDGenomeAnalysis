@@ -22,26 +22,26 @@ Features:
 
 Later we will add separate methods for downloading nucleotides versus protein.
 
-'''python
-from Bio import SeqIO
+    '''python
+    from Bio import SeqIO
 
 
-# download from: https://www.ncbi.nlm.nih.gov/sars-cov-2/
+    # download from: https://www.ncbi.nlm.nih.gov/sars-cov-2/
 
 
-class Records():
+    class Records():
 
-    def GetAllProteinSequences(self, file_path):
-        print('Categorizing protein sequences...\n')
-        proteins = {}
-        for record in SeqIO.parse(file_path, "fasta"):
-            description_words = record.description.split()
-            if description_words[1][1:] not in proteins:
-                proteins[description_words[1][1:]] = []
-            sequence = record.seq
-            proteins[description_words[1][1:]].append(str(sequence))
-        return proteins
- '''
+        def GetAllProteinSequences(self, file_path):
+            print('Categorizing protein sequences...\n')
+            proteins = {}
+            for record in SeqIO.parse(file_path, "fasta"):
+                description_words = record.description.split()
+                if description_words[1][1:] not in proteins:
+                    proteins[description_words[1][1:]] = []
+                sequence = record.seq
+                proteins[description_words[1][1:]].append(str(sequence))
+            return proteins
+     '''
 
 
 <h3> Organizing Protein Sequences by Individual Protein </h3>
