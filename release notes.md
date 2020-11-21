@@ -43,10 +43,10 @@ Later we will add separate methods for downloading nucleotides versus records.
             return database
 
 
-# Organizing Protein Sequences by Individual Protein
+<h3> Organizing Protein Sequences by Individual Protein
 
 
-# Get All Labeled Protein Names from Records
+<h3> Get All Labeled Protein Names from Records
 
 
     import records
@@ -203,7 +203,7 @@ https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/results/ORF3a_mutati
 
 
 
-# Comparing Protein Mutations
+<h3> Comparing Protein Mutations
 
 
     import records
