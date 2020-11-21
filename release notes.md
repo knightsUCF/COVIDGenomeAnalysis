@@ -43,10 +43,10 @@ Later we will add separate methods for downloading nucleotides versus records.
             return database
 
 
-<h3> Organizing Protein Sequences by Individual Protein
+<h3> Organizing Protein Sequences by Individual Protein </h3>
 
 
-<h3> Get All Labeled Protein Names from Records
+<h3> Get All Labeled Protein Names from Records </h3>
 
 
     import records
@@ -124,7 +124,7 @@ Later we will add separate methods for downloading nucleotides versus records.
     ORF7
     '''
 
-# Determining Protein Similarity (Mutation) by Protein Name
+<h3> Determining Protein Similarity (Mutation) by Protein Name </h3>
 
 Determining protein similarities for all proteins and all records can take a long time. Once we run:
 
@@ -203,7 +203,7 @@ https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/results/ORF3a_mutati
 
 
 
-<h3> Comparing Protein Mutations
+<h3> Comparing Protein Mutations </h3>
 
 
     import records
