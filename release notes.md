@@ -20,7 +20,7 @@ Features:
 <h3> Downloading All Available Protein Sequences (10 million lines) </h3>
 
 
-Later we will add separate methods for downloading nucleotides versus records.
+Later we will add separate methods for downloading nucleotides versus protein.
 
 
     from Bio import SeqIO
