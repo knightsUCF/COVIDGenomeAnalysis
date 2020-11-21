@@ -17,7 +17,7 @@ Version 1.1 adds the ability to:
 - we can get protein similiarities (mutations) by name, since this can save us a lot of time instead of processing all protein mutations `protein.GetAllLabeledProteinNames(protein_records)`
 
 
-# Downloading All Available Protein Sequences (10 million lines)
+<h3> Downloading All Available Protein Sequences (10 million lines) </h3>
 
 
 Later we will add separate methods for downloading nucleotides versus records.
