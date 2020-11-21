@@ -22,7 +22,7 @@ Features:
 
 Later we will add separate methods for downloading nucleotides versus protein.
 
-    '''python
+    ```python
     from Bio import SeqIO
 
 
@@ -41,7 +41,7 @@ Later we will add separate methods for downloading nucleotides versus protein.
                 sequence = record.seq
                 proteins[description_words[1][1:]].append(str(sequence))
             return proteins
-     '''
+     ```
 
 
 <h3> Organizing Protein Sequences by Individual Protein </h3>
