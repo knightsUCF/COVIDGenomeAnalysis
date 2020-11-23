@@ -246,8 +246,10 @@ https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/results/ORF3a_mutati
 # Rank Frequency of Protein Formulas by Selected Protein
 
 
+![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/ORF3a.png)
 
-https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/ORF3a.png
+
+
 
 
 
