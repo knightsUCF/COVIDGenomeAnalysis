@@ -2,6 +2,21 @@
 # Version 1.1
 
 
+Contents:
+
+
+I. Downloading All Available Protein Sequences From the NCBI Database
+
+II. Organizing Protein Sequences by Individual Protein
+
+III. Getting All Labeled Protein Names from Records
+
+IV. Determining Protein Similarity (Mutation) by Protein Name
+
+V. Comparing Protein Mutations
+
+VI. Ranking Frequency of Protein Formulas by Selected Protein
+
 (add mutation chart here of significant proteins)
 
 Features:
