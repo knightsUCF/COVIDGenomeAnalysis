@@ -246,6 +246,10 @@ https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/results/ORF3a_mutati
 # Rank Frequency of Protein Formulas by Selected Protein
 
 
+
+For protein ORF3a here we can get the most common protein formulas ranked by frequency:
+
+
 ![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/ORF3a.png)
 
 
