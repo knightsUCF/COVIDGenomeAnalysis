@@ -2,7 +2,7 @@
 # Version 1.1
 
 
-Contents:
+<h5> CONTENTS </h5>
 
 
 I. Downloading All Available Protein Sequences From the NCBI Database
