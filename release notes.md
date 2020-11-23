@@ -1,6 +1,8 @@
 
 # Version 1.1
 
+![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/COVID%20Structure.png)
+
 
 <h3> CONTENTS </h3>
 
