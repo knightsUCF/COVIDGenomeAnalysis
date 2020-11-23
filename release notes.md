@@ -279,6 +279,9 @@ For protein ORF3a here we can get the most common protein formulas ranked by fre
     
     protein_name = 'ORF3a'
     
+    frequent_protein_sequences = protein.DetermineFrequentProteinFormulas(protein_records, protein_name)
+    
+    
     '''
       nsp2
     nsp3
@@ -335,8 +338,7 @@ For protein ORF3a here we can get the most common protein formulas ranked by fre
     '''
 
 
-    frequent_protein_sequences = protein.DetermineFrequentProteinFormulas(protein_records, protein_name)
-
+  
     # get and rank frequent protein formulas by selected protein out of all available records
 
     for key, value in frequent_protein_sequences.items():
