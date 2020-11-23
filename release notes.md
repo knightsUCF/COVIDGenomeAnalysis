@@ -256,6 +256,10 @@ https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/results/ORF3a_mutati
     '''
     output
     
+    https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/results/ORF3A_Formula_Frequencies.txt
+    
+    (scroll all the way right to get the frequency count of each protein formula chain)
+    
     ...
     
     
