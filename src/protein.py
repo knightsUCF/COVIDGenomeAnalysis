@@ -15,7 +15,7 @@ class Protein():
                 
               
     def DetermineSimilarityByProtein(self, protein_records, protein_name):
-        compare_to = protein_records[protein_name][0] # compare everything to the first protein record, can also compare to a selected sequence
+        compare_to = protein_records[protein_name][0]
         for record in protein_records[protein_name]:
             how_similar = SequenceMatcher(None, compare_to, record).ratio()
             print(how_similar, ' - ', record)
