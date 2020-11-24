@@ -23,6 +23,7 @@ VI. Ranking Frequency of Protein Formulas by Selected Protein
 
 (add mutation chart here of significant proteins)
 
+<br>
 ---
 <br>
 
@@ -38,6 +39,7 @@ VI. Ranking Frequency of Protein Formulas by Selected Protein
 
 - we can get protein similiarities (mutations) by name, since this can save us a lot of time instead of processing all protein mutations `protein.GetAllLabeledProteinNames(protein_records)`
 
+<br>
 ---
 <br>
 
