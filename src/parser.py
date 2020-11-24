@@ -10,7 +10,7 @@ Sequence,Start,End,Length,Frame,UniqueTri
 data = {}
 
 
-def ReadFile(file):
+def read_file(file):
     global data
 
     f = open(file, 'r')
@@ -64,7 +64,7 @@ def ReadFile(file):
     '''
 
 
-ReadFile('results.txt')
+read_file('results.txt')
 
 
 
@@ -105,12 +105,6 @@ print(x_set_1)
 print(y_set_1)
 
 
-# def AddData(self, x, y, radius, plot, r, g, b, color):
-
-#
-
-
-# graph.Show()
 
 
 import genome
@@ -132,8 +126,8 @@ for i in data_2:
 print(x_set_2)
 print(y_set_2)
 
-graph.AddData(x_set_1, y_set_1, 0.000000000000000001, 'green')
-graph.AddData(x_set_2, y_set_2, 0.000000000000000001, 'purple')
+graph.add_data(x_set_1, y_set_1, 0.000000000000000001, 'green')
+graph.add_data(x_set_2, y_set_2, 0.000000000000000001, 'purple')
 
 
-graph.Show()
+graph.show()
