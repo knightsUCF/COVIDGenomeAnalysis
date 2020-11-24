@@ -32,7 +32,7 @@ class MotifX():
         ]
 
 
-    def IsValid(self, sequence):
+    def is_valid(self, sequence):
         contains_at_least_3_codons_flag = False
         contains_at_least_2_unique_codons_flag = False
         in_motif_x_list_flag = True
@@ -57,7 +57,7 @@ class MotifX():
         return contains_at_least_3_codons_flag and contains_at_least_2_unique_codons_flag and in_motif_x_list_flag
 
 
-    def GetSegments(self, nucleotides):
+    def get_segments(self, nucleotides):
         # returns a dictionary with the location (index in the genome) and length of each segment
 
         motif_x_sequence_lengths = {}
@@ -78,7 +78,7 @@ class MotifX():
         return motif_x_sequence_lengths
 
 
-    def GetSegmentsByRank(self, nucleotides):
+    def get_segments_by_rank(self, nucleotides):
         segments = self.GetSegments(nucleotides)
         ranked_by_index = collections.OrderedDict(sorted(segments.items(), key=lambda kv: kv[1]))
 
@@ -89,7 +89,7 @@ class MotifX():
 
 
 
-    def CalculateMotifXPercentMagnitude(self, motif_x_segment_length, total_length):
+    def calculate_motif_x_percent_magnitude(self, motif_x_segment_length, total_length):
         return motif_x_segment_length / total_length * 100
 
 
