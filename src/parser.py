@@ -1,4 +1,5 @@
 
+# only meant for comparing 1 custom set of data, not meant to be reusable 
 
 '''
 Code X: [AAC, AAT, ACC, ATC, ATT, CAG, CTC, CTG, GAA, GAC, GAG, GAT, GCC, GGC, GGT, GTA, GTC, GTT, TAC, TTC]
