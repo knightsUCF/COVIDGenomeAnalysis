@@ -16,11 +16,9 @@ class Genome():
         self.nucleotides = []
         f = open(self.file, 'r')
         contents = f.read()
-
         for i in contents:
             if i.isalpha():
                 self.nucleotides.append(i)
-
         return self.nucleotides
 
 
@@ -30,7 +28,6 @@ class Genome():
 
     def GetCodons(self):
         codons = []
-
         for i in range(0, len(self.nucleotides), 3):
             try:
                 codon = self.nucleotides[i].upper() + self.nucleotides[i + 1].upper() + self.nucleotides[i + 2].upper()
@@ -38,7 +35,6 @@ class Genome():
                 codons.append(codon)
             except:
                 pass
-
         return codons
 
 
@@ -55,11 +51,9 @@ class Genome():
         with open(self.file, 'r') as f:
             data_string = f.read().replace('\n', '')
         count = 0
-
         for i in data_string:
             if i == character:
                 count += 1
-
         return count
 
 
@@ -68,19 +62,16 @@ class Genome():
             lines = 0
             words = 0
             characters = 0
-
             for line in infile:
                 wordslist = line.split()
                 lines += 1
                 words = words + len(wordslist)
                 characters += sum(len(word) for word in wordslist)
-
             return characters
 
 
     def GetPercentFrequencyOfNucleotideBases(self):
         total_nucleotides_count = len(self.nucleotides)
-
         a_nucleotide_count = self.nucleotides.count('a')
         a_nucleotide_percent_frequency = round(a_nucleotide_count / total_nucleotides_count * 100, 2)
         c_nucleotide_count = self.nucleotides.count('c')
@@ -89,7 +80,6 @@ class Genome():
         g_nucleotide_percent_frequency = round(g_nucleotide_count / total_nucleotides_count * 100, 2)
         t_nucleotide_count = self.nucleotides.count('t')
         t_nucleotide_percent_frequency = round(t_nucleotide_count / total_nucleotides_count * 100, 2)
-
         self.a_frequency = a_nucleotide_percent_frequency
         self.c_frequency = c_nucleotide_percent_frequency
         self.g_frequency = g_nucleotide_percent_frequency
@@ -118,7 +108,6 @@ class Genome():
 
     def OutputAllNucleotideFrequencyPercents(self):
         self.GetPercentFrequencyOfNucleotideBases()
-
         print('A nucleotide frequency: ', self.a_frequency)
         print('C nucleotide frequency: ', self.c_frequency)
         print('G nucleotide frequency: ', self.g_frequency)
@@ -361,22 +350,18 @@ class Genome():
         start_codons_count = 0
         start_codon_index = -1
         start_codon_indexes = []
-
         for i in range(len(self.nucleotides)):
             # prevent negative index errors
             if i < 2:
                 continue
-
             if self.nucleotides[i] == 'g' and self.nucleotides[i - 1] == 'u' and self.nucleotides[i - 2] == 'a':
                 start_codon_index = i - 2
                 start_codon_indexes.append(start_codon_index)
                 start_codons_count += 1
-
             if self.nucleotides[i] == 'g' and self.nucleotides[i - 1] == 't' and self.nucleotides[i - 2] == 'a':
                 start_codon_index = i - 2
                 start_codon_indexes.append(start_codon_index)
                 start_codons_count += 1
-
         return start_codon_indexes
 
 
@@ -384,12 +369,10 @@ class Genome():
         stop_codons_count = 0
         stop_codon_index = -1
         stop_codon_indexes = []
-
         for i in range(len(self.nucleotides)):
             # prevent negative index errors
             if i < 2:
                 continue
-
             # Major stop codons: UAA, UAG, UGA
             # we will have 6 sets here, since we also need to test for T which is equivalent with U
             # they need to be input backwards here, since we are iterating backwards
@@ -501,30 +484,22 @@ class Genome():
 
         for i in synonymous_codons:
             total = 0.0
-
             # RCSU values are CodonCount/((1/num of synonymous codons) * sum of all synonymous codons)
             rcsu = []
             codons = synonymous_codons[i]
-
             for codon in codons:
                 total += codons_count[codon]
-
             # calculate the RSCU value for each of the codons
             for codon in codons:
                 denominator = float(total) / len(codons)
                 rcsu.append(codons_count[codon] / denominator)
-
             # now generate the index W=RCSUi/RCSUmax:
             rcsu_max = max(rcsu)
-
             for codon_index, codon in enumerate(codons):
                 self.index[codon] = rcsu[codon_index] / rcsu_max
-
         ranked_by_index = collections.OrderedDict(sorted(self.index.items(), key=lambda kv: kv[1]))
-
         output = pprint.PrettyPrinter(indent = 4)
         output.pprint(ranked_by_index)
-
         return ranked_by_index
 
 
