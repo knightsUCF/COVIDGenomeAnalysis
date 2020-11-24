@@ -29,7 +29,7 @@ class Blosum():
         a = a.upper()
         b = b.upper()
         if a not in self.matrix or b not in self.matrix[a]:
-            print('Not found in matrix')
+            raise Exception('Not found in matrix')
         return self.matrix[a][b]
 
 
