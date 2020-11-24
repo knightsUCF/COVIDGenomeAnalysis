@@ -5,7 +5,7 @@ import collections
 
 
 
-class Genome():
+class Genome:
 
     def __init__(self, file):
         self.file = file
