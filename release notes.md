@@ -21,7 +21,9 @@ VI. Ranking Frequency of Protein Formulas by Selected Protein
 
 (add mutation chart here of significant proteins)
 
-Features:
+<br>
+
+<h3> FEATURES </h3>
 
 - process the entire catalog of downloaded COVID protein sequences from: https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=SARS-CoV-2,%20taxid:2697049
 
