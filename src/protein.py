@@ -3,7 +3,7 @@ from difflib import SequenceMatcher
 
 
 
-class Protein():
+class Protein:
 
     def determine_similarity(self, protein_records):
         for protein in protein_records:
