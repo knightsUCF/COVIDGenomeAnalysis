@@ -4,7 +4,7 @@ from Bio import SeqIO
 # download from: https://www.ncbi.nlm.nih.gov/sars-cov-2/ (protein)
 
 
-class Records():
+class Records:
 
     def get_all_protein_sequences(self, file_path):
         print('Categorizing protein sequences...\n')
