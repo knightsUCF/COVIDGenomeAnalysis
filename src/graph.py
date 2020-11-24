@@ -9,7 +9,7 @@ class Graph():
         self.plot = figure(title=title, x_axis_label=x_label, y_axis_label=y_label, y_range=[y_start, y_end], x_range = [x_start, x_end])
 
 
-    def AddData(self, x, y, radius, color):
+    def add_data(self, x, y, radius, color):
 
         if color == 'green':
             r = 120
@@ -23,5 +23,5 @@ class Graph():
         self.plot.circle(x, y, size = 5, color=(r, g, b))
 
 
-    def Show(self):
+    def show(self):
         show(self.plot)
