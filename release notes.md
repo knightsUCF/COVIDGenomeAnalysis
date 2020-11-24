@@ -21,7 +21,7 @@ V. Comparing Protein Mutations
 
 VI. Ranking Frequency of Protein Formulas by Selected Protein
 
-(add mutation chart here of significant proteins)
+![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/mutations.jpg)
 
 <br>
 
