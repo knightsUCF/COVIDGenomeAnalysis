@@ -6,7 +6,7 @@ from Bio import SeqIO
 
 class Records():
 
-    def GetAllProteinSequences(self, file_path):
+    def get_all_protein_sequences(self, file_path):
         print('Categorizing protein sequences...\n')
         proteins = {}
         for record in SeqIO.parse(file_path, "fasta"):
