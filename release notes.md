@@ -66,82 +66,83 @@ class Records():
 
 <h3> Get All Labeled Protein Names from Records </h3>
 
-
-    import records
-    import protein
-    
-    
-    records = records.Records()
-    protein = protein.Protein()
+```python
+import records
+import protein
 
 
-    file_path = 'sequences.fasta'
-    
-    # by getting all the labeled protein names by the original uploaders we can later do operations specific to the protein   
-    protein_records = records.GetAllProteinSequences(file_path)
+records = records.Records()
+protein = protein.Protein()
 
-    protein.GetAllLabeledProteinNames(protein_records)
 
-    
-    '''
-    output
-    
-    Categorizing protein sequences...
-    
-    leader
-    nsp2
-    nsp3
-    nsp4
-    3C-like
-    nsp6
-    nsp7
-    nsp8
-    nsp9
-    nsp10
-    ORF7b
-    ORF1a
-    RNA-dependent
-    helicase
-    3'-to-5'
-    endoRNAse
-    2'-O-ribose
-    nsp11
-    ORF10
-    ORF1ab
-    surface
-    ORF3a
-    envelope
-    membrane
-    ORF6
-    ORF7a
-    ORF8
-    nucleocapsid
-    ORf6
-    N
-    ORF7b,
-    truncated
-    Chain
-    E
-    ORF7a/ORF7b
-    ORF1ap
-    orf1ab
-    orf3a
-    orf6
-    orf7a
-    orf8
-    orf10
-    orf1a
-    RecName:
-    S
-    M
-    ORF3a,
-    spike
-    nonstructural
-    structural
-    matrix
-    ORF3
-    ORF7
-    '''
+file_path = 'sequences.fasta'
+
+# by getting all the labeled protein names by the original uploaders we can later do operations specific to the protein   
+protein_records = records.GetAllProteinSequences(file_path)
+
+protein.GetAllLabeledProteinNames(protein_records)
+
+
+'''
+output
+
+Categorizing protein sequences...
+
+leader
+nsp2
+nsp3
+nsp4
+3C-like
+nsp6
+nsp7
+nsp8
+nsp9
+nsp10
+ORF7b
+ORF1a
+RNA-dependent
+helicase
+3'-to-5'
+endoRNAse
+2'-O-ribose
+nsp11
+ORF10
+ORF1ab
+surface
+ORF3a
+envelope
+membrane
+ORF6
+ORF7a
+ORF8
+nucleocapsid
+ORf6
+N
+ORF7b,
+truncated
+Chain
+E
+ORF7a/ORF7b
+ORF1ap
+orf1ab
+orf3a
+orf6
+orf7a
+orf8
+orf10
+orf1a
+RecName:
+S
+M
+ORF3a,
+spike
+nonstructural
+structural
+matrix
+ORF3
+ORF7
+'''
+```
 
 <h3> Determining Protein Similarity (Mutation) by Protein Name </h3>
 
