@@ -4,10 +4,10 @@ class Blosum:
 
 
     def __init__(self, matrix_file_path):
-        self.Load(matrix_file_path)
+        self.load(matrix_file_path)
 
 
-    def Load(self, matrix_file_path):
+    def load(self, matrix_file_path):
         with open(matrix_file_path) as matrix_file:
             matrix = matrix_file.read()
         lines = matrix.strip().split('\n')
@@ -25,7 +25,7 @@ class Blosum:
         self.matrix = matrix
 
 
-    def Lookup(self, a, b):
+    def lookup(self, a, b):
         a = a.upper()
         b = b.upper()
         if a not in self.matrix or b not in self.matrix[a]:
