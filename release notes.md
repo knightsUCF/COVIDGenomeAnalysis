@@ -3,6 +3,8 @@
 
 ![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/COVID%20Structure.png)
 
+---
+<br>
 
 <h3> CONTENTS </h3>
 
@@ -21,6 +23,7 @@ VI. Ranking Frequency of Protein Formulas by Selected Protein
 
 (add mutation chart here of significant proteins)
 
+---
 <br>
 
 <h3> FEATURES </h3>
@@ -34,6 +37,10 @@ VI. Ranking Frequency of Protein Formulas by Selected Protein
 
 
 - we can get protein similiarities (mutations) by name, since this can save us a lot of time instead of processing all protein mutations `protein.GetAllLabeledProteinNames(protein_records)`
+
+---
+<br>
+
 
 
 <h3> Downloading All Available Protein Sequences (10 million lines) </h3>
