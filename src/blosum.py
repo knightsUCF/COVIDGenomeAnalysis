@@ -1,4 +1,4 @@
-class Blosum():
+class Blosum:
 
     # based on: https://gist.github.com/jwintersinger/1870047#file-blosum-py
 
