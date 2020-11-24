@@ -2,7 +2,7 @@ from bokeh.plotting import figure, output_file, show
 
 
 
-class Graph():
+class Graph:
 
     def __init__(self, title, x_label, y_label, x_start, x_end, y_start, y_end):
         output_file("corona_data.html", title="mutation rate")
