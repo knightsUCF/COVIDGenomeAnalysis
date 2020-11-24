@@ -92,11 +92,11 @@ We can test this by:
     g1 = genome.Genome('MN908947_China_01_05_2020.txt')
     g2 = genome.Genome('MT483564_California_11_10_2020.txt')
 
-    print('China 01 05 2020 C nucleotide frequency: ', g1.GetCFrequency())
-    print('China 01 05 2020 G nucleotide frequency: ', g1.GetGFrequency())
+    print('China 01 05 2020 C nucleotide frequency: ', g1.get_c_frequency())
+    print('China 01 05 2020 G nucleotide frequency: ', g1.get_g_frequency())
 
-    print('California 11 10 2020 C nucleotide frequency: ', g2.GetCFrequency())
-    print('California 11 10 2020 G nucleotide frequency: ', g2.GetGFrequency())
+    print('California 11 10 2020 C nucleotide frequency: ', g2.get_c_frequency())
+    print('California 11 10 2020 G nucleotide frequency: ', g2.get_g_frequency())
     
     
     # output:
@@ -129,8 +129,8 @@ To get the indexes (locations) of where the start and stop codons occur in the C
 
     g = genome.Genome('MN908947_China_01_05_2020.txt')
 
-    print(g.GetStartCodonIndexes())
-    print(g.GetStopCodonIndexes())
+    print(g.get_start_codon_indexes())
+    print(g.get_stop_codon_indexes())
 
     # output
     # [106, 265, 407, 467, 488, 506, 512, 517, ...]
@@ -197,7 +197,7 @@ To calculate the RSCU index of codons in COVID-19:
 
     g = genome.Genome('MT483564_California_11_10_2020.txt')
 
-    print(g.GenerateRSCU())
+    print(g.generate_rscu())
 
 
     '''
@@ -298,7 +298,7 @@ To run the Motif X algorithm on the COVID RNA:
     mx = motifx.MotifX()
 
 
-    print(mx.GetSegmentsByRank(g.GetCodons()))
+    print(mx.get_segments_by_rank(g.get_codons()))
     
     # ouptut:
     # https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/motif%20x%20results.txt
