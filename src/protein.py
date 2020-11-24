@@ -38,8 +38,6 @@ class Protein():
                 common_protein_formulas[record] = 1
             else:
                 common_protein_formulas[record] += 1
-        # common_protein_formulas =  dict(sorted(common_protein_formulas.items(), key=lambda item: item[1]))
-        # common_protein_formulas = dict(sorted(common_protein_formulas.items(), key=lambda item: item[1],reverse=True))
         common_protein_formulas = dict(sorted(common_protein_formulas.items(), key=operator.itemgetter(1),reverse=True))
         return common_protein_formulas
 
@@ -73,27 +71,16 @@ class Protein():
                     if current_key[i] == baseline_sequence[i]:
                         pass
                     else:
-                        # ignore missing 'x' data
+                        # ignore missing 'X' data for both the baseline key and match
                         if current_key[i] != 'X' and baseline_sequence[i] != 'X':
                             # print('no match: ', current_key[i], baseline_sequence[i])
                             total_blosum_score += float(blosum.lookup(current_key[i], baseline_sequence[i]))
-                            # print('Blosum matrix score: ', blosum_score)
-                            # total_blosum_score = total_blosum_score + blosum_score
-                            # print('total running blosum score: ', total_blosum_score)
-                print()
-                print('analysis complete for sequence ID: ', current_sequence_id)
+                print('\nanalysis complete for sequence ID: ', current_sequence_id)
                 print('sequence: ', current_key)
                 print('sequence frequency out of all records: ', value)
-                print('blosum matrix score: ', total_blosum_score)
-                print()
-
+                print('blosum matrix score: ', total_blosum_score, '\n')
                 # reset
                 total_blosum_score = 0
-                # print('total blosum score for sequence: ', total_blosum_score)
-            # except:
-                # print('pass')
-                # for now only compare sequences of the same length
-                # pass
             except Exception as e:
                 print(e)
 
