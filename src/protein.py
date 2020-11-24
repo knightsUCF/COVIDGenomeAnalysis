@@ -6,7 +6,7 @@ import blosum
 blosum = blosum.Blosum('blosum.txt')
 
 
-class Protein():
+class Protein:
 
     def determine_similarity(self, protein_records):
         for protein in protein_records:
