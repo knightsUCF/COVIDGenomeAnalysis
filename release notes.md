@@ -1,5 +1,5 @@
 
-# Version 1.1
+# Version 1.1 - Protein Analysis
 
 ![alt text](https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/Images/COVID%20Structure.png)
 
