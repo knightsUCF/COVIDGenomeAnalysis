@@ -5,7 +5,7 @@ from difflib import SequenceMatcher
 
 class Protein():
 
-    def DetermineSimilarity(self, protein_records):
+    def determine_similarity(self, protein_records):
         for protein in protein_records:
             compare_to = protein_records[protein][0] # compare everything to the first protein record, can also compare to a selected sequence
             print('Starting similarity (mutation) analysis for protein: ', protein)
@@ -14,21 +14,21 @@ class Protein():
                 print(how_similar)
                 
               
-    def DetermineSimilarityByProtein(self, protein_records, protein_name):
+    def determine_similarity_by_protein(self, protein_records, protein_name):
         compare_to = protein_records[protein_name][0]
         for record in protein_records[protein_name]:
             how_similar = SequenceMatcher(None, compare_to, record).ratio()
             print(how_similar, ' - ', record)
                 
                 
-    def GetAllLabeledProteinNames(self, protein_records):
+    def get_all_labeled_protein_names(self, protein_records):
         protein_names = []
         for protein in protein_records:
             protein_names.append(protein)
         return protein_names
 
 
-    def DetermineFrequentProteinFormulas(self, protein_records, protein_name):
+    def determine_frequent_protein_formulas(self, protein_records, protein_name):
         common_protein_formulas = {}
         for record in protein_records[protein_name]:
             if record not in common_protein_formulas:
