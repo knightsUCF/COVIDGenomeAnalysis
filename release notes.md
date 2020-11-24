@@ -53,7 +53,7 @@ VI. Ranking Frequency of Protein Formulas by Selected Protein
 <h3> Downloading All Available Protein Sequences (10 million lines) </h3>
 
 
-Later we will add separate methods for downloading nucleotides versus protein.
+We will add separate methods for downloading nucleotides versus protein.
 
 ```python
 from Bio import SeqIO
