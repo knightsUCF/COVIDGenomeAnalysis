@@ -9,10 +9,10 @@ class Genome():
 
     def __init__(self, file):
         self.file = file
-        self.ExtractNucleotides()
+        self.extract_nucleotides()
 
 
-    def ExtractNucleotides(self):
+    def extract_nucleotides(self):
         self.nucleotides = []
         f = open(self.file, 'r')
         contents = f.read()
@@ -22,11 +22,11 @@ class Genome():
         return self.nucleotides
 
 
-    def GetNucleotides(self):
+    def get_nucleotides(self):
         return self.nucleotides
 
 
-    def GetCodons(self):
+    def get_codons(self):
         codons = []
         for i in range(0, len(self.nucleotides), 3):
             try:
@@ -38,16 +38,16 @@ class Genome():
         return codons
 
 
-    def GetNucleotideWithIndex(self, index):
+    def get_nucleotide_with_index(self, index):
         return self.nucleotides[index]
 
 
-    def GetAminoAcidWithIndex(self, index):
+    def get_amino_acid_with_index(self, index):
         amino_acid = self.nucleotides[index] + self.nucleotides[index + 1] + self.nucleotides[index + 2]
         return amino_acid
 
 
-    def GetCharacterCount(self, character):
+    def get_character_count(self, character):
         with open(self.file, 'r') as f:
             data_string = f.read().replace('\n', '')
         count = 0
@@ -57,7 +57,7 @@ class Genome():
         return count
 
 
-    def GetTotalCharacterCount(self):
+    def get_total_character_count(self):
         with open(self.file) as infile:
             lines = 0
             words = 0
@@ -70,7 +70,7 @@ class Genome():
             return characters
 
 
-    def GetPercentFrequencyOfNucleotideBases(self):
+    def get_percent_frequency_of_nucleotide_bases(self):
         total_nucleotides_count = len(self.nucleotides)
         a_nucleotide_count = self.nucleotides.count('a')
         a_nucleotide_percent_frequency = round(a_nucleotide_count / total_nucleotides_count * 100, 2)
@@ -86,40 +86,40 @@ class Genome():
         self.t_frequency = t_nucleotide_percent_frequency
 
 
-    def GetAFrequency(self):
-        self.GetPercentFrequencyOfNucleotideBases()
+    def get_a_frequency(self):
+        self.get_percent_frequency_of_nucleotide_bases()
         return self.a_frequency
 
 
-    def GetCFrequency(self):
-        self.GetPercentFrequencyOfNucleotideBases()
+    def get_c_frequency(self):
+        self.get_percent_frequency_of_nucleotide_bases()
         return self.c_frequency
 
 
-    def GetGFrequency(self):
-        self.GetPercentFrequencyOfNucleotideBases()
+    def get_g_frequency(self):
+        self.get_percent_frequency_of_nucleotide_bases()
         return self.g_frequency
 
 
-    def GetTFrequency(self):
-        self.GetPercentFrequencyOfNucleotideBases()
+    def get_t_frequency(self):
+        self.get_percent_frequency_of_nucleotide_bases()
         return self.t_frequency
 
 
-    def OutputAllNucleotideFrequencyPercents(self):
-        self.GetPercentFrequencyOfNucleotideBases()
+    def output_all_nucleotide_frequency_percents(self):
+        self.get_percent_frequency_of_nucleotide_bases()
         print('A nucleotide frequency: ', self.a_frequency)
         print('C nucleotide frequency: ', self.c_frequency)
         print('G nucleotide frequency: ', self.g_frequency)
         print('T nucleotide frequency: ', self.t_frequency)
 
 
-    def TranslateToProteinSequence(self, amino_acids):
+    def translate_to_protein_sequence(self, amino_acids):
         # todo
         pass
 
 
-    def ConvertNucleotidesToAminoAcid(self, nucleotides):
+    def convert_nucleotides_to_amino_acid(self, nucleotides):
         # https://www.bx.psu.edu/~ross/workmg/GeneticCodeCh13.htm#:~:text=The%20nucleotides%20triplet%20that%20encodes,acid%2C%20in%20most%20cases).
         # of the total of 64 codons, 61 encode amino acids and 3 specify termination of translation
 
@@ -322,7 +322,7 @@ class Genome():
             return -1
 
 
-    def IsValidStartCodon(self, amino_acid):
+    def is_valid_start_codon(self, amino_acid):
         # todo: insert more valid start codons, but for now the 'AUG' start codon is 80% occurring and what the current research focuses on
         amino_acid_upper_case = amino_acid.upper()
         if amino_acid_upper_case == 'AUG' or amino_acid_upper_case == 'ATG':
@@ -331,7 +331,7 @@ class Genome():
             return False
 
 
-    def IsValidStopCodon(self, amino_acid):
+    def is_valid_stop_codon(self, amino_acid):
         amino_acid_upper_case = amino_acid.upper()
 
         # an amino acid of "Term" is designated for stop codons
@@ -346,7 +346,7 @@ class Genome():
             return False
 
 
-    def GetStartCodonIndexes(self):
+    def get_start_codon_indexes(self):
         start_codons_count = 0
         start_codon_index = -1
         start_codon_indexes = []
@@ -365,7 +365,7 @@ class Genome():
         return start_codon_indexes
 
 
-    def GetStopCodonIndexes(self):
+    def get_stop_codon_indexes(self):
         stop_codons_count = 0
         stop_codon_index = -1
         stop_codon_indexes = []
@@ -424,11 +424,11 @@ class Genome():
         return stop_codon_indexes
 
 
-    def ExtractSpikeProtein(self):
+    def extract_spike_protein(self):
         pass
 
 
-    def GenerateRSCU(self):
+    def generate_rscu(self):
         # "AKA GenerateCodonUsageIndex()"
 
         self.codon_count = {}
