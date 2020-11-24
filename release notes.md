@@ -24,7 +24,9 @@ VI. Ranking Frequency of Protein Formulas by Selected Protein
 (add mutation chart here of significant proteins)
 
 <br>
+
 ---
+
 <br>
 
 <h3> FEATURES </h3>
