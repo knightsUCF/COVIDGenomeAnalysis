@@ -88,7 +88,7 @@ output
 
 Categorizing protein sequences...
 
-leader
+
 nsp2
 nsp3
 nsp4
