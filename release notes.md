@@ -77,6 +77,7 @@ class Records():
 
     file_path = 'sequences.fasta'
     
+    # by getting all the labeled protein names by the original uploaders we can later do operations specific to the protein   
     protein_records = records.GetAllProteinSequences(file_path)
 
     protein.GetAllLabeledProteinNames(protein_records)
