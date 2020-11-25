@@ -49,14 +49,16 @@ class Protein:
 
 
     def calculate_blosum_matrix_on_sequences(self, baseline_sequence, sequences):
+        data = {} # returning data for graphing, x axis: frequency occuranced, y axis: 
         print('Running Blosum matrix')
         total_blosum_score = 0
         current_sequence_id = 0
         for current_key, value in sequences.items():
             current_sequence_id += 1
             # skip the first record which we are comparing to, since this is the most frequent
-            if current_sequence_id == 1:
-                continue
+            # if graphing don't skip this so we have a reference
+            # if current_sequence_id == 1:
+            #    continue
             # only compare sequences of the same length
             if len(baseline_sequence) != len(current_key):
                 continue
@@ -79,10 +81,12 @@ class Protein:
                 print('sequence: ', current_key)
                 print('sequence frequency out of all records: ', value)
                 print('blosum matrix score: ', total_blosum_score, '\n')
+                data[value] = total_blosum_score
                 # reset
                 total_blosum_score = 0
             except Exception as e:
                 print(e)
+        return data
 
 
 
