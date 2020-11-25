@@ -49,7 +49,7 @@ class Protein:
 
 
     def calculate_blosum_matrix_on_sequences(self, baseline_sequence, sequences):
-        print('Running blosum matrix')
+        print('Running Blosum matrix')
         total_blosum_score = 0
         current_sequence_id = 0
         for current_key, value in sequences.items():
