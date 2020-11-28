@@ -50,7 +50,7 @@ class Protein:
 
     def calculate_blosum_matrix_on_sequences(self, baseline_sequence, sequences):
         data = {} # returning data for graphing, x axis: frequency occurrence, y axis: BLOSUM rating
-        print('Running Blosum matrix')
+        print('Running BLOSUM matrix')
         total_blosum_score = 0
         current_sequence_id = 0
         for current_key, value in sequences.items():
