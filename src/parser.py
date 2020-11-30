@@ -127,8 +127,8 @@ for i in data_2:
 print(x_set_2)
 print(y_set_2)
 
-graph.add_data(x_set_1, y_set_1, 0.000000000000000001, 'green')
-graph.add_data(x_set_2, y_set_2, 0.000000000000000001, 'purple')
+graph.add_data(x_set_1, y_set_1, 'green')
+graph.add_data(x_set_2, y_set_2, 'purple')
 
 
 graph.show()
