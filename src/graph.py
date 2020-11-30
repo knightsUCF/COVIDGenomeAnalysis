@@ -10,7 +10,6 @@ class Graph:
 
 
     def add_data(self, x, y, radius, color):
-
         if color == 'green':
             r = 120
             g = 240
@@ -19,7 +18,6 @@ class Graph:
             r = 120
             g = 240
             b = 255
-
         self.plot.circle(x, y, size = 5, color=(r, g, b))
 
 
