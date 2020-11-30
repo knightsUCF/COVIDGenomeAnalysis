@@ -66,9 +66,9 @@ class MotifX():
         while i < len(nucleotides):
             start = i
             end = start + 3
-            if self.IsValid(nucleotides[start:end]):
+            if self.is_valid(nucleotides[start:end]):
                 while end < len(nucleotides) and \
-                        self.IsValid(nucleotides[start:end + 1]):
+                        self.is_valid(nucleotides[start:end + 1]):
                     end += 1
                 motif_x_sequence_lengths[start] = end - start
                 i = end
