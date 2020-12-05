@@ -16,6 +16,8 @@ https://www.nature.com/articles/nrmicro2090
 
 The COVID Genome Analysis project aims at analyzing the genomic sequence of COVID-19. The goal of the project is to utilize data analysis and computing to extract patterns from the COVID RNA.
 
+Version 1.1 notes can be found here with an overview of features: https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/version%20notes/1.1.md
+
 
 Author: Piotr (Peter) Kwiatkowski.
 
