@@ -310,7 +310,7 @@ print(mx.get_segments_by_rank(g.get_codons()))
 
 I contacted the research team of the study on Motif X and they said that to their knowledge there is no active research being done on Motif X in the United States. I shared my results on how I was calculating the Motif X sequence. They confirmed that my results on computing the algorithm of Motif X sequencing were reasonable, and they sent me the output of their program calculating Motif X on the RNA of COVID:
 
-https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/motif_x_research_team_results.txt
+https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/results/motif_x_research_team_results.txt
 
 
 To note I used codons as indexes, while they used nucloetides as indexes. To convert from nucleotides to codons, simply multiply by three. I wrote a custom parser to graph both of our data which can be found here:
