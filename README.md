@@ -315,7 +315,7 @@ https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/results/motif_x_rese
 
 To note I used codons as indexes, while they used nucloetides as indexes. To convert from nucleotides to codons, simply multiply by three. I wrote a custom parser to graph both of our data which can be found here:
 
-https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/parser.py
+https://github.com/knightsUCF/COVIDGenomeAnalysis/blob/main/src/parser.py
 
 
 
